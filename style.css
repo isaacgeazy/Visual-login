@@ -23,7 +23,7 @@
     border: 1px solid rgba(255, 255, 255, 0.274);
     border-radius: 7px;
     padding: 1rem;
-
+    
 }
 
 .content {
@@ -61,6 +61,11 @@ input[type="password"] {
     color: white;
 
 }
+input[type="password"]::placeholder{
+    color: white;
+    font-size: 14px;
+}
+
 input[type="text"]::placeholder {
     color: white;
     font-size: 14px;
@@ -89,7 +94,7 @@ input[type="button"] {
     cursor: pointer;
 
 }
-input[type="button"]:hover{
+input[type="button"]:hover {
     background-color: #20b369;
 }
 
