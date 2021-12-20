@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.all {
+    height: 100vh;
+    width: 100%;
+    background-color: #093545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    border-radius: 7px;
+    padding: 1rem;
+
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+input[type="text"] {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #224957;
+    border: none;
+    padding: 12px 10px;
+
+}
+
+input[type="text"]::placeholder {
+    color: white;
+    font-size: 14px;
+
+}
+
+.two-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.two-content a {
+    text-decoration: none;
+    color: #20DF7F;
+}
+
+input[type="button"] {
+    background-color: #20DF7F;
+    width: 300px;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 7px;
+}
+
+.two-content .checkbox span {
+    color: white;
+}
