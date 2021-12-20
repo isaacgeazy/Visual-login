@@ -4,7 +4,7 @@ function Entrar() {
 
     let erro = "Usuário ou senha incorretos";
 
-    if (textU.value == "isaacgeazy" && textS.value == "encantado123") {
+    if (textU.value == "admin" && textS.value == "admin123") {
         window.location.href = 'pag.html'
     } else {
         return window.alert(erro);
