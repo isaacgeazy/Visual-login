@@ -74,6 +74,7 @@ input[type="button"] {
     border: none;
     padding: 12px 10px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .two-content .checkbox span {
