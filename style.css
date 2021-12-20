@@ -47,9 +47,20 @@ input[type="text"] {
     background-color: #224957;
     border: none;
     padding: 12px 10px;
+    color: white;
 
 }
 
+input[type="password"] {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #224957;
+    border: none;
+    padding: 12px 10px;
+    color: white;
+
+}
 input[type="text"]::placeholder {
     color: white;
     font-size: 14px;
@@ -69,12 +80,17 @@ input[type="text"]::placeholder {
 }
 
 input[type="button"] {
+    color: white;
     background-color: #20DF7F;
     width: 300px;
     border: none;
     padding: 12px 10px;
     border-radius: 7px;
     cursor: pointer;
+
+}
+input[type="button"]:hover{
+    background-color: #20b369;
 }
 
 .two-content .checkbox span {
