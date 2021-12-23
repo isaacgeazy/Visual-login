@@ -5,8 +5,8 @@ function Entrar() {
     let nomeSenha = textSenha.value;
 
     if (nomeUsuario == "admin" || nomeUsuario.charAt(0) == nomeUsuario.charAt(0).toUpperCase() && nomeSenha == "admin123") {
-        console.log("tudo certo")
+        window.location.href = 'pag.html'
     } else {
-        console.log("Tudo errado")
+        window.alert("Nome de usuário ou senha vazios ou incorretos. Tente novamente")
     }
 }
