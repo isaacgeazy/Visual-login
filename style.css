@@ -23,7 +23,7 @@
     border: 1px solid rgba(255, 255, 255, 0.274);
     border-radius: 7px;
     padding: 1rem;
-    
+
 }
 
 .content {
@@ -60,7 +60,8 @@ input[type="password"] {
     color: white;
 
 }
-input[type="password"]::placeholder{
+
+input[type="password"]::placeholder {
     color: white;
     font-size: 14px;
 }

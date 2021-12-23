@@ -1,18 +1,12 @@
-function letra(textU){
- if (textU.charAt(0) == textU.charAt(0).toUpperCase() || textU) {
-     return true
- } else {
-     return false
- }
-}
 function Entrar() {
-    let textU = window.document.getElementById('usuario');
-    let textS = window.document.getElementById('senha');
-    let erro = "Usuário ou senha não preenchidos ou incorretos!";
+    let textUsuario = document.getElementById('usuario')
+    let textSenha = document.getElementById('senha')
+    let nomeUsuario = textUsuario.value;
+    let nomeSenha = textSenha.value;
 
-    if (letra(textU.value) == "admin" && textS.value == "admin123") {
-        window.location.href = 'pag.html'
+    if (nomeUsuario == "admin" || nomeUsuario.charAt(0) == nomeUsuario.charAt(0).toUpperCase() && nomeSenha == "admin123") {
+        console.log("tudo certo")
     } else {
-        return window.alert(erro);
+        console.log("Tudo errado")
     }
 }
