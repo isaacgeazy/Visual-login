@@ -11,7 +11,9 @@
 .all {
     height: 100vh;
     width: 100%;
-    background-color: #093545;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +22,7 @@
 .container {
     height: 400px;
     width: 500px;
-    border: 1px solid rgba(255, 255, 255, 0.274);
+    background-color: rgb(9, 53, 69);
     border-radius: 7px;
     padding: 1rem;
 
@@ -44,7 +46,7 @@ input[type="text"] {
     width: 300px;
     margin-bottom: 20px;
     border-radius: 7px;
-    background-color: #224957;
+    background-color: rgb(34, 73, 87);
     border: none;
     padding: 12px 10px;
     color: white;
@@ -54,7 +56,7 @@ input[type="password"] {
     width: 300px;
     margin-bottom: 20px;
     border-radius: 7px;
-    background-color: #224957;
+    background-color: rgb(34, 73, 87);
     border: none;
     padding: 12px 10px;
     color: white;
@@ -94,8 +96,13 @@ input[type="button"] {
     cursor: pointer;
 
 }
+
 input[type="button"]:hover {
     background-color: #20b369;
+}
+
+.two-content .checkbox #checkbox{
+    background-color: #224957;
 }
 
 .two-content .checkbox span {
